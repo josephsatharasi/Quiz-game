@@ -2,7 +2,7 @@
   "name": "quiz-game",
   "version": "1.0.0",
   "scripts": {
-    "build:teacher": "cd teacher && npm install && npm run build",
+    "build:teacher": "cd teacher && npm install && npx --prefix teacher vite build",
     "build:frontend": "cd frontend && npm install && npm run build"
   }
 }
