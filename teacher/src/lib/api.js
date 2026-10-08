@@ -1,4 +1,4 @@
-const BASE = 'http://localhost:5000/api'
+const BASE = 'https://quiz-game-szr2.onrender.com/api'
 
 function getToken() {
   return localStorage.getItem('token')

@@ -7,7 +7,7 @@ let socketInstance = null
 
 function getSocket() {
   if (!socketInstance) {
-    socketInstance = io('http://localhost:5000', {
+    socketInstance = io('https://quiz-game-szr2.onrender.com', {
       transports: ['websocket'],
       autoConnect: true,
     })

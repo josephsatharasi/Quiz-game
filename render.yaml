@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: quiz-game-teacher
+    env: static
+    buildCommand: cd teacher && npm install && npm run build
+    staticPublishPath: teacher/dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
