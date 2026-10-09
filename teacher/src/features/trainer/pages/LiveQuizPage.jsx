@@ -11,7 +11,7 @@ import AnswerDistributionBar from '../components/AnswerDistributionBar'
 import TrainerControls       from '../components/TrainerControls'
 import LiveLeaderboardPanel  from '../components/LiveLeaderboardPanel'
 
-const SOCKET_URL = 'http://localhost:5000'
+const SOCKET_URL = 'https://quiz-game-szr2.onrender.com'
 
 export default function LiveQuizPage() {
   const navigate      = useNavigate()
